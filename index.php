@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +23,7 @@
             <h2>PUMP UP</h2>
         </div>
         <div class="buttons">
-            <a class="auto" id="log">Log workout</a>
+            <a class="auto" id="log" href="../pages/log.php">Log workout</a>
             <a class="auto" id="trainers">Personal Trainer</a>
             <a class="auto" id="workouts">Workouts</a>
             <a class="auto" id="exercises  ">Exercises</a>
