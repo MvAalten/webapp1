@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+      font-family: "Nunito Sans", sans-serif;
+}
+.space{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #FFA800;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.header h2{
+    background-color: #FFA800;
+}
+.logo{
+    padding: 10px;
+    background-color: #FFA800;
+}
+.buttons{
+    background-color: #FFA800;
+    display: flex;
+    flex-direction: row;
+    width: 40%;    
+    height: auto;
+    align-items: center;
+}
+.auto{
+    width: 130px;
+    height: 20px;
+    background-color: #FFA800;
+    display: flex;
+    flex-direction: row;
+}
+.login-button{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #c68502a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise-prequals{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block{
+    width: 18%;
+    height: 480px;
+    background-color: #FFA800;
+    display: flex;
+    flex-direction: column;
+}
+.example{
+    width: 100%;
+    height: 62%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example1{
+    width: 100%;
+    height: 62%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example2{
+    width: 100%;
+    height: 62%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example3{
+    width: 100%;
+    height: 62%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example1 img{
+    height: 100%;
+    overflow: hidden;
+}
+.example2 img{
+    height: 95%;
+}
+.example3 img{
+height: 90%;
+}
+.example img{
+    height: 85%;
+}
+.lower-block{
+    height: 38%;
+    width: 100%;
+    background-color: #FFA800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.exercise-name{
+    width: 100%;
+    height: 20px;
+    margin-top: 1%;
+    padding: 5px;
+    background-color: #ffaa0000;
+}
+.see-more{
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    background-color: #FFA800;
+}
+.exercise-name h2{
+    background-color: #FFA800;
+}
+.see-more a{
+    background-color: #FFA800;
+}
