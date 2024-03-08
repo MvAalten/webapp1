@@ -31,7 +31,7 @@
     background-color: #FFA800;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 47%;
     height: auto;
     align-items: center;
 }
@@ -145,13 +145,58 @@ height: 90%;
 .under-body{
     width: 100%;
     height: 700px;
-    background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .log-workout-box{
-    height: 550px;
+    height: 500px;
     width: 470px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.log-workout{
+    width: 60%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.text-box-workout{
+    height: 20px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+.text-box-workout p{
+    background-color: rgb(63, 63, 63);
+}
+.type-log-workout{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70%;
+    border: 10px;
+    border-radius: 10px;
+}
+.main-login-box{
+    height: 600px;
+    width: 470px;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.submit-button-box{
+    width: 100%;
+    height: 100px;
+}
+.submit-button{
+    width: 60px;
+    height: 30px;
+    background-color: white;
 }
