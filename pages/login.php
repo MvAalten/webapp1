@@ -32,27 +32,16 @@
     </div>
     <div class="under-body">
         <div class="main-login-box">
-            <div class="log-workout">
-                <div class="text-box-workout">
-                    <p>Name</p>
-                </div>
-                <input class="type-log-workout" type="Name" placeholder="Username" required>
-            </div>
-            <div class="log-workout">
-                <div class="text-box-workout">
-                    <p>Password</p>
-                </div>
-                <input class="type-log-workout" type="password" placeholder="Password" required>
-            </div>
-            <div class="log-workout">
-                <div class="text-box-workout">
-                    <p>E-mail</p>
-                </div>
-                <input class="type-log-workout" type="email" placeholder="E-mail" required>
-                <div class="submit-button-box">
-                    <input class="submit-button" type="submit" value="Submit">
-                </div>
-            </div>
+
+                    <div class="login-form">
+                        <form class="login-form-second coloring" action='login_logic.php' name='login_logic' method="post">
+                        <label class="coloring"> Username: </label>  
+                        <input class="type-log-workout2" type="text" name="username" placeholder="Username" required>
+                        <label class="coloring"> Password: </label>  
+                        <input class="type-log-workout2" type="password" name="password" placeholder="Password" required>
+                        <input class="button-submit" type="submit" value="login">
+                    </div>
+       
         </div>
     </div>
 </body>
