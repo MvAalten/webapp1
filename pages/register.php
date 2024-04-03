@@ -34,13 +34,14 @@
         <div class="main-login-box">
 
                     <div class="login-form">
-                        <form class="login-form-second coloring" action='login_logic.php' name='login_logic' method="post">
+                        <form class="login-form-second coloring" action='register_logic.php' name='register_logic' method="post">
                         <label class="coloring"> Username: </label>  
                         <input class="type-log-workout2" type="text" name="username" placeholder="Username" required>
                         <label class="coloring"> Password: </label>  
                         <input class="type-log-workout2" type="password" name="password" placeholder="Password" required>
+                        <label class="coloring"> email: </label>  
+                        <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
                         <input class="button-submit" type="submit" value="login">
-                        <a class="coloring" href="register.php">register</a>
                     </div>
        
         </div>

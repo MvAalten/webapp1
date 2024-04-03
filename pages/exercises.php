@@ -1,5 +1,5 @@
 <?php
-
+ include '../pages/conn.php';
 ?>
 
 
@@ -30,20 +30,25 @@
             <a class="login-button" href="../pages/login.php">login</a>
         </div>
     </div>
-    <div class="under-body">
-        <div class="main-login-box">
+    <div class="box-under-nav-extra-thing">
+        <div class="box">
+            <div class="name">
 
-                    <div class="login-form">
-                        <form class="login-form-second coloring" action='login_logic.php' name='login_logic' method="post">
-                        <label class="coloring"> Username: </label>  
-                        <input class="type-log-workout2" type="text" name="username" placeholder="Username" required>
-                        <label class="coloring"> Password: </label>  
-                        <input class="type-log-workout2" type="password" name="password" placeholder="Password" required>
-                        <input class="button-submit" type="submit" value="login">
-                        <a class="coloring" href="register.php">register</a>
-                    </div>
-       
+            </div>
+            <div class="target">
+                
+            </div>
+            <div class="see">
+
+            </div>
         </div>
     </div>
+    <?php
+    $stmt = $connection->query('SELECT name FROM users');
+    while ($row = $stmt->fetch())
+    {
+        
+    }
+    ?>
 </body>
 </html>
