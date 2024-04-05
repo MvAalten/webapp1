@@ -61,8 +61,14 @@ if (!isset($_SESSION["user"])){
                 
                 ?>
                  <form action='user_delete_logic.php' name='user_delete_logic.php' method="post">
-                    <label> id: </label>  
-                    <input type="text" name="user_id" placeholder="id" required>
+                    <label> User delete: </label>
+                    <br>
+                    <input type="text" name="user_id" placeholder="id delete" required>
+                    <input type="submit" value="Delete">
+                 </form>
+                 <form action='exercise_delete_logic.php' name='exercise_delete_logic.php' method="post">
+                    <label> Exercise delete: </label>  
+                    <input type="text" name="exercise_id" placeholder="Exercise delete" required>
                     <input type="submit" value="Delete">
                  </form>
             </div>

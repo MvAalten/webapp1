@@ -1,5 +1,5 @@
 <?php
- include '../pages/conn.php';
+ include 'conn.php';
 ?>
 
 
@@ -31,24 +31,26 @@
         </div>
     </div>
     <div class="box-under-nav-extra-thing">
-        <div class="box">
-            <div class="name">
 
-            </div>
-            <div class="target">
-                
-            </div>
-            <div class="see">
-
-            </div>
-        </div>
-    </div>
     <?php
     $stmt = $connection->query('SELECT name FROM users');
     while ($row = $stmt->fetch())
     {
         
     }
+
+    $stmt = $connection->query("SELECT * FROM exercises");
+ 
+    while ($row = $stmt->fetch())
+    {
+        echo '<div class="box-under-nav-extra-thing">';
+        echo '<div class="name">' . $row['name']."<br />\n";
+        echo '<div class="target">' . $row['description']."<br />\n";
+        echo '<div class="see">' . $row['price']."<br />\n";
+        // echo "<img src='".$row['img'] ."'>";
+        echo '</div>';
+    }
     ?>
+    </div>
 </body>
 </html>
