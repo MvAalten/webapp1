@@ -72,6 +72,21 @@ if (!isset($_SESSION["user"])){
                     <input type="submit" value="Delete">
                  </form>
             </div>
+            </div>
+                <div class="log-workout-box-admin-2">
+                <?php
+                include 'conn.php';
+                $stmt = $connection->prepare("SELECT * FROM exercises");
+                $stmt->execute();
+                $data = $stmt->fetchAll();
+                
+                foreach($data as $row) {
+                    echo $row['exerciseName'];
+                    echo "<a href='product_update.php?id=".$row['id']."'>Update</a>";
+                    echo "<a href='product_delete.php?id=".$row['id']."'>delete</a>";
+                }
+                ?>
+            </div>
         </div>
     </div>
 </body>
