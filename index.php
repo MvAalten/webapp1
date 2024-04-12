@@ -26,7 +26,6 @@
         <a class="auto" id="log" href="../index.php">Main page</a>
             <a class="auto" id="log" href="../pages/log.php">Log workout</a>
             <a class="auto" id="workouts" href="../pages/workout.php">Workouts</a>
-            <a class="auto" id="exercises" href="../pages/exercises.php">Exercises</a>
             <a class="login-button" href="../pages/login.php">login</a>
         </div>
     </div>

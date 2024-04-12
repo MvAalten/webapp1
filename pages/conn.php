@@ -17,3 +17,4 @@ try{
         echo "Connection failed: " . $e->getMessage();
     }
 ?>
+<!-- maakt connection met database -->

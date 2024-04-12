@@ -3,6 +3,7 @@ session_start();
 if (!isset($_SESSION["user"])){
     header("Location: login.php");
     exit();
+    // als je niet bent in gelogd dan word je verwezen naar de login page
 }
 ?>
 <?php
@@ -53,9 +54,9 @@ if (!isset($_SESSION["user"])){
             </div>
                         <div class="log-workout1">
                 <div class="text-box-workout">
-                    <p>Example image</p>
+                    <input type="submit" value="Add exercise">
                 </div>
-                <input class="center" type="file" placeholder="Example image" required>
+
 
                 <?php
                 
@@ -84,6 +85,7 @@ if (!isset($_SESSION["user"])){
                     echo $row['exerciseName'];
                     echo "<a href='product_update.php?id=".$row['id']."'>Update</a>";
                     echo "<a href='product_delete.php?id=".$row['id']."'>delete</a>";
+                    // delete
                 }
                 ?>
             </div>
