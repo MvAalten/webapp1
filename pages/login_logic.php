@@ -17,7 +17,8 @@ $user = $stmt->fetch();
 if (!empty($user)){
 $_SESSION["user"] = $username;
     header ("Location: dashboard.php");
-    } else{
+    } 
+    else{
         header("Location: login.php");
     }
 

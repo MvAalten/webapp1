@@ -54,6 +54,7 @@
                     <p>Reps</p>
                 </div>
                 <input class="type-log-workout" type="Name" placeholder="Username" required>
+                <input type="submit" value="Log workout">
             </div>
         </div>
     </div>

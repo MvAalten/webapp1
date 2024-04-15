@@ -32,7 +32,7 @@
     <div class="box-under-nav-extra-thing">
 
     <?php
-    $stmt = $connection->query('SELECT name FROM users');
+    $stmt = $connection->query('SELECT * FROM users');
     while ($row = $stmt->fetch())
     {
         
@@ -46,8 +46,9 @@
         echo '<div class="name">' . $row['name']."<br />\n";
         echo '<div class="target">' . $row['description']."<br />\n";
         echo '<div class="see">' . $row['price']."<br />\n";
-        // echo "<img src='".$row['img'] ."'>";
+        echo "<img src='".$row['img'] ."'>";
         echo '</div>';
+        // bedoeling is dat hij alles uitrolt van de database
     }
     ?>
     </div>
